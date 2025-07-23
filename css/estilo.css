@@ -86,3 +86,10 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
 }
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    text-align: justify;
+    padding: 10px;
+}

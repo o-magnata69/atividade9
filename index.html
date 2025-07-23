@@ -17,35 +17,72 @@
     <p>-> Escolhi pois pelo nome já dava pra saber que seria um tower defense. Link: <a href="http://www.flexboxdefense.com/">Aqui!</a></p>
     <section>
       <img src="imgs/1.1.png">
-      <h2>Fase 1/2 do jogo Flexbox Defense</h2>
+      <h2>Fase 1/2</h2>
       <p>Demorou um pouco para entender a mecânica inicial do jogo</p>
     </section>
     <section>
       <img src="imgs/1.2.png" alt="Pão de queijo">
-      <h2>Pão de queijo</h2>
-      <p>Ótimo acompanhamento para o café! <a href="https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo" target="_blank">Saiba mais </a></p>
+      <h2>Fase 9</h2>
+      <p>Aqui introduziu outros negócio que complicou a minha vida um pouco, por exemplo isso de ordem</p>
     </section>
     <section>
       <img src="imgs/1.3.png" alt="Pão de queijo">
-      <h2>Pão de queijo</h2>
-      <p>Ótimo acompanhamento para o café! <a href="https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo" target="_blank">Saiba mais </a></p>
+      <h2>Fase 12</h2>
+      <p>Só olhar pra imagem que dá pra perceber pq foi um pouco difícil, mt coisa na tela.</p>
+    </section>
+    <h2>Flexbox Froggy</h2>
+    <p>-> Escolhi porque falaram que era fácil. Link: <a href="http://www.flexboxfroggy.com/">Aqui!</a></p>
+    <section>
+      <img src="imgs/2.1.png">
+      <h2>Fase 8</h2>
+      <p>Todas as 10 primeiras fases são muito fáceis, então só botei as 3 com a mecânica um pouco mais difícil.</p>
     </section>
     <section>
-      <img src="imgs/2.1.png" alt="Pão de queijo">
-      <h2>Pão de queijo</h2>
-      <p>Ótimo acompanhamento para o café! <a href="https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo" target="_blank">Saiba mais </a></p>
-    </section>
-    <section>
-      <img src="imgs/2.2.png" alt="Pão de queijo">
-      <h2>Pão de queijo</h2>
-      <p>Ótimo acompanhamento para o café! <a href="https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo" target="_blank">Saiba mais </a></p>
+      <img src="imgs/2.2.png">
+      <h2>Fase 9</h2>
+      <p>Mesma coisa.</p>
     </section>
         <section>
-      <img src="imgs/2.3.png" alt="Pão de queijo">
-      <h2>Pão de queijo</h2>
-      <p>Ótimo acompanhamento para o café! <a href="https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo" target="_blank">Saiba mais </a></p>
+      <img src="imgs/2.3.png">
+      <h2>Fase 10</h2>
+      <p>Mesma coisa.</p>
     </section>
+    <h1>Reflexão e Aplicação Prática</h1>
+
+  <section>
+    <h2>💭 Reflexão sobre o uso do Flexbox</h2>
+    <p>
+      Durante os jogos, percebi que o Flexbox é uma ferramenta extremamente poderosa para controlar o posicionamento e alinhamento de elementos na tela de forma flexível e responsiva. Ele facilita muito a construção de layouts modernos, principalmente quando se trata de centralizar elementos, organizar em colunas ou linhas e adaptar para diferentes tamanhos de tela sem precisar de muitas media queries.
+    </p>
+
+    <h2>🧰 Propriedades CSS usadas e para que servem</h2>
+    <ul>
+      <li><strong>display: flex;</strong> → ativa o comportamento flexível em um container.</li>
+      <li><strong>flex-direction</strong> → define a direção dos itens (linha ou coluna).</li>
+      <li><strong>justify-content</strong> → alinha os itens horizontalmente.</li>
+      <li><strong>align-items</strong> → alinha os itens verticalmente.</li>
+      <li><strong>flex-wrap</strong> → permite que os itens quebrem para a próxima linha se necessário.</li>
+      <li><strong>align-self</strong> → permite alinhar um item individualmente no eixo cruzado.</li>
+      <li><strong>gap</strong> → adiciona espaçamento entre os itens.</li>
+      <li><strong>flex-grow</strong> → controla quanto um item pode crescer em relação aos outros.</li>
+      <li><strong>flex-shrink</strong> → define como um item pode encolher se o espaço for insuficiente.</li>
+      <li><strong>flex-basis</strong> → define o tamanho base de um item antes da distribuição do espaço extra.</li>
+    </ul>
+
+    <h2>🧠 Aplicação prática (caso real)</h2>
+    <p>
+      Pensei num <strong>menu de navegação responsivo</strong>. Usaria Flexbox para alinhar os itens horizontalmente em telas grandes e, em telas menores, mudaria a direção para coluna:
+    </p>
+    <ul>
+      <li>Criaria um container com <code>display: flex</code> e <code>justify-content: space-between</code> para distribuir os links.</li>
+      <li>Com <code>align-items: center</code>, centralizaria verticalmente.</li>
+      <li>Se o menu fosse colapsado num botão (como um menu hambúrguer), usaria <code>flex-direction: column</code> com <code>gap</code> para alinhar os links em forma de lista vertical.</li>
+    </ul>
+    <p>Isso deixaria o menu limpo, adaptável e fácil de manter.</p>
+  </section>
+  
   </main>
+  
   <footer>
     <p>&copy; 2025 João Pedro Almeida Caldeira</p>
   </footer>
